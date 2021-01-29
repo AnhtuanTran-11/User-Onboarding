@@ -14,7 +14,7 @@ export default function Form(props) {
     };
 
     return (
-        <form onSubmit={onSubmit}>
+        <form id='form' onSubmit={onSubmit}>
             <div>
                 <h1>Add a user</h1>
                 <div>{errors.name}</div>
